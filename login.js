@@ -31,7 +31,7 @@ document.getElementById('sign-up-form').addEventListener('submit', function(e) {
         alert('User already exist');
      } 
       else {
-          alert('Signup failed');
+          window.location.href = 'login.html';
       }
   })
   .catch(error => {
